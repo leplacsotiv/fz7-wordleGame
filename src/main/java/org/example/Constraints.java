@@ -11,6 +11,10 @@ public final class Constraints {
     private final Map<Character, Integer> minCount = new HashMap<>();
     private final Map<Character, Integer> maxCount = new HashMap<>();
 
+    private boolean isFixedAt(int i) {
+        return fixed[i] != '\0';
+    }
+
     public void absorbGuess(String guess, String hint) {
         Map<Character, Integer> hits = new HashMap<>();
         Map<Character, Integer> misses = new HashMap<>();
@@ -20,7 +24,7 @@ public final class Constraints {
             char h = hint.charAt(i);
 
             if (h == '+') {
-                if (fixed[i] != '\0' && fixed[i] != g) {
+                if (isFixedAt(i) && fixed[i] != g) {
                     throw new IllegalStateException("Contradicting fixed position at " + i);
                 }
                 fixed[i] = g;
@@ -63,12 +67,7 @@ public final class Constraints {
     }
 
     private void tightenMax(char ch, int newMax) {
-        Integer old = maxCount.get(ch);
-        if (old == null) {
-            maxCount.put(ch, newMax);
-        } else {
-            maxCount.put(ch, Math.min(old, newMax));
-        }
+        maxCount.merge(ch, newMax, Math::min);
     }
 
     public boolean matches(String word) {
@@ -77,7 +76,7 @@ public final class Constraints {
         }
 
         for (int i = 0; i < 5; i++) {
-            if (fixed[i] != '\0' && word.charAt(i) != fixed[i]) {
+            if (isFixedAt(i) && word.charAt(i) != fixed[i]) {
                 return false;
             }
         }

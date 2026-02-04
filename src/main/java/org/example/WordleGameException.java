@@ -1,8 +1,10 @@
 package org.example;
 
-public abstract class WordleGameException extends Exception {
+public class WordleGameException extends Exception {
     protected WordleGameException(String message) {
         super(message);
     }
-    public abstract String getUserMessage();
+    protected WordleGameException(String message, Throwable cause) {
+        super(message, cause);
+    }
 }

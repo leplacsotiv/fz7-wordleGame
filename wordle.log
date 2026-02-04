@@ -1,0 +1,146 @@
+[DICT] Loading dictionary from /Users/ivan/dev/fz7/src/main/resources/dictionary.txt
+[DICT] After cleanup/normalize unique words: 3473
+[DICT] Loaded valid words: 3473
+[GAME] Started. answer=дебит candidates=3473
+[GAME] guess=водка hint=--^-- attemptsLeft=5 candidates=56
+[GAME] guess=идеал hint=^^^-- attemptsLeft=4 candidates=9
+[GAME] suggested=деист
+[GAME] guess=деист hint=++^-+ attemptsLeft=3 candidates=1
+[GAME] guess=дебит hint=+++++ attemptsLeft=2 candidates=1
+[DICT] Loading dictionary from /Users/ivan/dev/fz7/src/main/resources/dictionary.txt
+[DICT] After cleanup/normalize unique words: 3473
+[DICT] Loaded valid words: 3473
+[GAME] Started. answer=обыск candidates=3473
+[GAME] guess=парик hint=----+ attemptsLeft=5 candidates=103
+[GAME] suggested=зубок
+[GAME] guess=зубок hint=--^^+ attemptsLeft=4 candidates=3
+[GAME] suggested=босяк
+[GAME] guess=босяк hint=^^^-+ attemptsLeft=3 candidates=1
+[GAME] guess=блеск hint=^--++ attemptsLeft=2 candidates=1
+[GAME] suggested=обыск
+[GAME] guess=обыск hint=+++++ attemptsLeft=1 candidates=1
+[DICT] Loading dictionary from /Users/ivan/dev/fz7/src/main/resources/dictionary.txt
+[DICT] After cleanup/normalize unique words: 3473
+[DICT] Loaded valid words: 3473
+[GAME] Started. answer=оплыв candidates=3473
+[GAME] guess=туфля hint=---^- attemptsLeft=5 candidates=392
+[GAME] guess=балет hint=--+-- attemptsLeft=4 candidates=48
+[GAME] suggested=полон
+[GAME] guess=полон hint=^^+-- attemptsLeft=3 candidates=1
+[GAME] suggested=оплыв
+[GAME] guess=оплыв hint=+++++ attemptsLeft=2 candidates=1
+[DICT] Loading dictionary from /Users/ivan/dev/fz7/src/main/resources/dictionary.txt
+[DICT] After cleanup/normalize unique words: 3473
+[DICT] Loaded valid words: 3473
+[GAME] Started. answer=копач candidates=3473
+[GAME] suggested=мысль
+[GAME] guess=мысль hint=----- attemptsLeft=5 candidates=1505
+[GAME] guess=музей hint=----- attemptsLeft=4 candidates=691
+[GAME] guess=повод hint=^+--- attemptsLeft=3 candidates=10
+[GAME] suggested=копка
+[GAME] guess=копка hint=+++-^ attemptsLeft=2 candidates=1
+[GAME] suggested=копач
+[GAME] guess=копач hint=+++++ attemptsLeft=1 candidates=1
+[DICT] Loading dictionary from /Users/ivan/dev/fz7/src/main/resources/dictionary.txt
+[DICT] After cleanup/normalize unique words: 3473
+[DICT] Loaded valid words: 3473
+[GAME] Started. answer=сеунч candidates=3473
+[GAME] guess=дупло hint=-^--- attemptsLeft=5 candidates=125
+[GAME] guess=абзац hint=----- attemptsLeft=4 candidates=49
+[GAME] suggested=унтер
+[GAME] guess=унтер hint=^^-^- attemptsLeft=3 candidates=4
+[GAME] suggested=сеунч
+[GAME] guess=сеунч hint=+++++ attemptsLeft=2 candidates=1
+[DICT] Loading dictionary from /Users/ivan/dev/fz7/src/main/resources/dictionary.txt
+[DICT] After cleanup/normalize unique words: 3473
+[DICT] Loaded valid words: 3473
+[GAME] Started. answer=загул candidates=3473
+[GAME] guess=топор hint=----- attemptsLeft=5 candidates=887
+[GAME] Слова нет в словаре, попробуйте другое.
+[GAME] guess=ангар hint=^-+-- attemptsLeft=4 candidates=13
+[GAME] suggested=магия
+[GAME] suggested=сагиб
+[GAME] guess=магия hint=-++-- attemptsLeft=3 candidates=1
+[GAME] guess=сагиб hint=-++-- attemptsLeft=2 candidates=1
+[GAME] suggested=загул
+[GAME] guess=загул hint=+++++ attemptsLeft=1 candidates=1
+[DICT] Loading dictionary from /Users/ivan/dev/fz7/src/main/resources/dictionary.txt
+[DICT] After cleanup/normalize unique words: 3473
+[DICT] Loaded valid words: 3473
+[GAME] Started. answer=лохмы candidates=3473
+[GAME] suggested=совик
+[GAME] suggested=чужак
+[GAME] suggested=тугун
+[GAME] suggested=пешка
+[GAME] suggested=игиль
+[GAME] suggested=пенье
+[GAME] suggested=пурка
+[GAME] suggested=ликер
+[GAME] suggested=забег
+[GAME] suggested=ножны
+[GAME] guess=ножны hint=-+--+ attemptsLeft=5 candidates=3
+[GAME] suggested=космы
+[GAME] suggested=согды
+[GAME] guess=согды hint=-+--+ attemptsLeft=4 candidates=1
+[GAME] suggested=лохмы
+[GAME] guess=лохмы hint=+++++ attemptsLeft=3 candidates=1
+[DICT] Loading dictionary from /Users/ivan/dev/fz7/src/main/resources/dictionary.txt
+[DICT] After cleanup/normalize unique words: 3473
+[DICT] Loaded valid words: 3473
+[GAME] Started. answer=вокал candidates=3473
+[GAME] suggested=весок
+[GAME] guess=весок hint=+--^^ attemptsLeft=5 candidates=5
+[GAME] guess=вокал hint=+++++ attemptsLeft=4 candidates=1
+[DICT] Loading dictionary from /Users/ivan/dev/fz7/src/main/resources/dictionary.txt
+[DICT] After cleanup/normalize unique words: 3473
+[DICT] Loaded valid words: 3473
+[GAME] Started. answer=эпоха candidates=3473
+[GAME] guess=вокал hint=-^-^- attemptsLeft=5 candidates=114
+[GAME] guess=окрас hint=^--^- attemptsLeft=4 candidates=37
+[GAME] guess=запал hint=-^^-- attemptsLeft=3 candidates=2
+[GAME] suggested=эпоха
+[GAME] Нужно слово из 5 русских букв.
+[GAME] guess=эпоха hint=+++++ attemptsLeft=2 candidates=1
+[DICT] Loading dictionary from /Users/ivan/dev/fz7/src/main/resources/dictionary.txt
+[DICT] After cleanup/normalize unique words: 3473
+[DICT] Loaded valid words: 3473
+[GAME] Started. answer=обвод candidates=3473
+[GAME] suggested=лбина
+[GAME] guess=лбина hint=-+--- attemptsLeft=5 candidates=30
+[GAME] guess=обыск hint=++--- attemptsLeft=4 candidates=17
+[GAME] guess=обвал hint=+++-- attemptsLeft=3 candidates=2
+[GAME] suggested=обвод
+[GAME] guess=обвод hint=+++++ attemptsLeft=2 candidates=1
+[DICT] Loading dictionary from /Users/ivan/dev/fz7/src/main/resources/dictionary.txt
+[DICT] After cleanup/normalize unique words: 3473
+[DICT] Loaded valid words: 3473
+[GAME] Started. answer=чабер candidates=3473
+[GAME] Слова нет в словаре, попробуйте другое.
+[GAME] guess=пугач hint=---^^ attemptsLeft=5 candidates=59
+[GAME] guess=пачка hint=-+^-- attemptsLeft=4 candidates=3
+[GAME] guess=часть hint=++--- attemptsLeft=3 candidates=1
+[GAME] suggested=чабер
+[GAME] Нужно слово из 5 русских букв.
+[GAME] guess=чабер hint=+++++ attemptsLeft=2 candidates=1
+[DICT] Loading dictionary from /Users/ivan/dev/fz7/src/main/resources/dictionary.txt
+[DICT] After cleanup/normalize unique words: 3473
+[DICT] Loaded valid words: 3473
+[GAME] Started. answer=порча candidates=3473
+[GAME] suggested=шлейф
+[GAME] guess=шлейф hint=----- attemptsLeft=5 candidates=1599
+[GAME] guess=кулак hint=---^- attemptsLeft=4 candidates=364
+[GAME] suggested=порча
+[GAME] guess=порча hint=+++++ attemptsLeft=3 candidates=1
+[DICT] Loading dictionary from /Users/ivan/dev/fz7/src/main/resources/dictionary.txt
+[DICT] After cleanup/normalize unique words: 3473
+[DICT] Loaded valid words: 3473
+[GAME] Started. answer=сурок candidates=3473
+[GAME] guess=порча hint=-^+-- attemptsLeft=5 candidates=42
+[GAME] guess=ровня hint=^^--- attemptsLeft=4 candidates=34
+[GAME] suggested=огрех
+[GAME] guess=огрех hint=^-+-- attemptsLeft=3 candidates=15
+[GAME] suggested=сырок
+[GAME] guess=сырок hint=+-+++ attemptsLeft=2 candidates=1
+[GAME] guess=сорок hint=+-+++ attemptsLeft=1 candidates=1
+[GAME] suggested=сурок
+[GAME] guess=сурок hint=+++++ attemptsLeft=0 candidates=1

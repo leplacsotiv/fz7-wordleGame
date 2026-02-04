@@ -49,7 +49,7 @@ public class Wordle {
                     System.out.println("Осталось попыток: " + game.attemptsLeft());
 
                 } catch (WordleGameException e) {
-                    System.out.println(e.getUserMessage());
+                    System.out.println(e.getMessage());
                     log.println("[GAME] " + e.getMessage());
                 }
             }

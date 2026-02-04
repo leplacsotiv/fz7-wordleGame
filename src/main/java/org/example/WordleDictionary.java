@@ -16,7 +16,9 @@ public class WordleDictionary {
 
         for (String s : rawLines) {
             String w = normalize(s);
-            if (!isValidFormat(w)) continue;
+            if (!isValidFormat(w)) {
+                continue;
+            }
             if (set.add(w)) {
                 temp.add(w);
             }

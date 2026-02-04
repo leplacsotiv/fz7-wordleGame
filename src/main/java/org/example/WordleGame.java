@@ -12,14 +12,15 @@ public class WordleGame {
     private boolean won = false;
 
     private final Constraints constraints = new Constraints();
-    private List<String> candidates;
+    private CandidateSet candidates;
+    private final Random rnd = new Random();
     private final Set<String> suggestedAlready = new HashSet<>();
 
     public WordleGame(WordleDictionary dict, PrintWriter log) {
         this.dict = dict;
         this.log = log;
         this.answer = dict.randomWord();
-        this.candidates = new ArrayList<>(dict.allWords());
+        this.candidates = new CandidateSet(dict.allWords());
 
         log.println("[GAME] Started. answer=" + answer + " candidates=" + candidates.size());
     }
@@ -43,7 +44,7 @@ public class WordleGame {
 
         constraints.absorbGuess(guess, hint);
 
-        candidates = CandidateFilter.filter(candidates, constraints);
+        candidates = candidates.filtered(constraints);
 
         attemptsLeft--;
 
@@ -54,7 +55,7 @@ public class WordleGame {
         log.println("[GAME] guess=" + guess + " hint=" + hint +
                 " attemptsLeft=" + attemptsLeft + " candidates=" + candidates.size());
 
-        if (!won && attemptsLeft > 0 && candidates.isEmpty()) {
+        if (!won && attemptsLeft > 0 && candidates.asList().isEmpty()) {
             throw new IllegalStateException("No candidates left - constraint logic bug.");
         }
 
@@ -67,17 +68,17 @@ public class WordleGame {
         }
 
         for (int tries = 0; tries < 50; tries++) {
-            if (candidates.isEmpty()) {
+            if (candidates.asList().isEmpty()) {
                 return null;
             }
-            String w = candidates.get(new Random().nextInt(candidates.size()));
+            String w = candidates.random(rnd);
             if (suggestedAlready.add(w)) {
                 log.println("[GAME] suggested=" + w);
                 return w;
             }
         }
 
-        for (String w : candidates) {
+        for (String w : candidates.asList()) {
             if (suggestedAlready.add(w)) {
                 log.println("[GAME] suggested=" + w);
                 return w;
